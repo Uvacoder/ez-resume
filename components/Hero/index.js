@@ -13,9 +13,9 @@ const Hero = () => {
           letterSpacing={{ base: "normal", md: "tight" }}
           color={useColorModeValue("gray.900", "gray.100")}
         >
-          Resumes Made{" "}
+          Easy way{" "}
           <Text display={{ base: "block", lg: "inline" }} w="full" color="purple.700" fontWeight="extrabold">
-            Easy
+            Resume
           </Text>
         </chakra.h1>
         <chakra.p
@@ -24,7 +24,7 @@ const Hero = () => {
           fontSize={{ base: "lg", md: "xl" }}
           color={useColorModeValue("gray.600", "gray.300")}
         >
-          Create resumes online with a few clicks and send download directly. Free, and no registration required place.
+          Create resumes online with a few clicks and send download directly. Free, and no registration required.
         </chakra.p>
         <Stack
           direction={{ base: "column", sm: "row" }}
